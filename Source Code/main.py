@@ -52,7 +52,7 @@ for y in range(0, len(points_set), 1):
             turtle.penup()
 
 # export image with format eps
-turtle.getcanvas().postscript(file="剑桥_12B_张搏禹1.eps")
+turtle.getcanvas().postscript(file="OUTPUT.eps")
 turtle.done()
 
 # exit program
