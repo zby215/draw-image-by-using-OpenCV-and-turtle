@@ -53,27 +53,27 @@ edge = cv2.Canny(image,threshold1,threshold2,edges,apertureSize,L2gradient)
 ```
 test1.py
 ```
-![Alt text](../../../E:/python/Cambridge_12B_BoyuZhang/Image/%E9%98%88%E5%80%BC%E5%AF%B9%E6%A3%80%E6%B5%8B%E7%BB%93%E6%9E%9C%E7%9A%84%E5%BD%B1%E5%93%8D.png)
+![Alt text](https://raw.githubusercontent.com/zby215/draw-image-by-using-OpenCV-and-turtle/main/Image/%E9%98%88%E5%80%BC%E5%AF%B9%E6%A3%80%E6%B5%8B%E7%BB%93%E6%9E%9C%E7%9A%84%E5%BD%B1%E5%93%8D.png)
 
 ## 2.sobel算子对检测结果的影响
 测试代码
 ```
 test2.py
 ```
-![Alt text](../../../E:/python/Cambridge_12B_BoyuZhang/Image/sobel%E7%AE%97%E5%AD%90%E5%AF%B9%E6%A3%80%E6%B5%8B%E7%BB%93%E6%9E%9C%E7%9A%84%E5%BD%B1%E5%93%8D.png)
+![Alt text](https://raw.githubusercontent.com/zby215/draw-image-by-using-OpenCV-and-turtle/main/Image/sobel%E7%AE%97%E5%AD%90%E5%AF%B9%E6%A3%80%E6%B5%8B%E7%BB%93%E6%9E%9C%E7%9A%84%E5%BD%B1%E5%93%8D.png)
 
 ## 3.范数对检测结果的影响
 测试代码
 ```
 test3.py
 ```
-![Alt text](../../../E:/python/Cambridge_12B_BoyuZhang/Image/%E8%8C%83%E6%95%B0%E5%AF%B9%E6%A3%80%E6%B5%8B%E7%BB%93%E6%9E%9C%E7%9A%84%E5%BD%B1%E5%93%8D.png)
+![Alt text](https://raw.githubusercontent.com/zby215/draw-image-by-using-OpenCV-and-turtle/main/Image/%E8%8C%83%E6%95%B0%E5%AF%B9%E6%A3%80%E6%B5%8B%E7%BB%93%E6%9E%9C%E7%9A%84%E5%BD%B1%E5%93%8D.png)
 
 ## 结论
 > 阈值为0，200 ; 卷积核大小为3 ; L2范数为1 时，效果最好
 
 ---
----
+
 # 代码
 > 导入需要的第三方库&变量声明
 ```python
@@ -135,6 +135,6 @@ turtle.done()
 ---
 # 成品
 ## 原图
-![Alt text](../../../E:/python/Cambridge_12B_BoyuZhang/Image/origin.png)
+![Alt text](https://raw.githubusercontent.com/zby215/draw-image-by-using-OpenCV-and-turtle/main/Image/origin.png)
 ## turtle绘画
-![Alt text](../../../E:/python/Cambridge_12B_BoyuZhang/Image/%E5%89%91%E6%A1%A5_12B_%E5%BC%A0%E6%90%8F%E7%A6%B9.png)
+![Alt text](https://raw.githubusercontent.com/zby215/draw-image-by-using-OpenCV-and-turtle/main/Image/OUTPUT.png)
