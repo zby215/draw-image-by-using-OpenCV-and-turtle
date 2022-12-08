@@ -3,7 +3,7 @@
 一些实现过程 $\downarrow$
 
 ---
----
+
 # 依赖
 详见：'requirements.txt'. 
 
@@ -13,7 +13,7 @@
 ```
 
 ---
----
+
 # 原理
 ## OpenCV-Python：
 主要使用 $OpenCV$ 中的 $cv2.Canny()$ 边缘检测工具  
